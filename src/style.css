@@ -1,0 +1,53 @@
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 72px;
+  margin: 20px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-container {
+  width: 40%;
+}
+
+.score-btn-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+.submit-btn {
+  display: flex;
+  width: 35%;
+  justify-self: right;
+  align-self: end;
+}
+
+table {
+  margin-top: 10px;
+  border: solid;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+td {
+  border: none;
+}
