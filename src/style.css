@@ -25,11 +25,11 @@ h1 {
 
 .input-container {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 input {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .submit-btn {
@@ -40,8 +40,8 @@ input {
 }
 
 table {
-    margin-top: 10px;
-    border: solid;
+  margin-top: 10px;
+  border: solid;
 }
 
 tr:nth-child(odd) {
@@ -49,5 +49,5 @@ tr:nth-child(odd) {
 }
 
 td {
-    border: none;
+  border: none;
 }
