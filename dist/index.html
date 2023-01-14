@@ -5,31 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wbpack Exercise</title>
     <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css">
-<script defer src="runtime.8487152d.js"></script><script defer src="main.8487152d.js"></script></head>
+<script defer src="runtime.82ac3f8a.js"></script><script defer src="main.82ac3f8a.js"></script></head>
 <body>
     <main>
         <h1>Leaderboard</h1>
         <div class="main-container">
+            
             <div class="list-container">
                 <div class="score-btn-cont">
                     <h3>Recent Score</h3>
                     <button type="button" class="refresh-btn btn btn-outline-primary">Refresh</button>
                 </div>
-                <table class="table table-hover">
+                <table class="table table-hover score-list">
                     <tbody>
-                        <tr><td>name: 100</td></tr>
-                        <tr><td>name: 34</td></tr>
-                        <tr><td>name: 40</td></tr>
-                        <tr><td>name: 54</td></tr>
                     </tbody>
                 </table>
             </div>
-            <div class="input-container">
+            <form class="input-container">
                 <h3>Add Your Score</h3>
-                <input type="text" class="name-input">
-                <input type="number" class="score-input">
-                <button type="button" class="submit-btn btn btn-outline-primary">Submit</button>
-            </div>
+                <input type="text" id="name" class="name-input">
+                <input type="number" id="score" class="score-input">
+                <button type="submit" value="submit" class="submit-btn btn btn-outline-primary">Submit</button>
+            </form>
         </div>
     </main>
 
