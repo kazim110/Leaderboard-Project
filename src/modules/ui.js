@@ -1,10 +1,10 @@
-import GetScore from './getFromAPi.js';
+import getScore from './getFromAPi.js';
 
 const scoreBoard = document.querySelector('.score-list');
 
 const UI = async () => {
   scoreBoard.innerHTML = '';
-  const Arr = await GetScore();
+  const Arr = await getScore();
   Arr.sort((a, b) => b.score - a.score);
   Arr.forEach((el) => {
     scoreBoard.innerHTML += `
