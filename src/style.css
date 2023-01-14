@@ -44,7 +44,7 @@ table {
   border: solid;
 }
 
-tr:nth-child(odd) {
+tbody:nth-child(odd) {
   background-color: #f2f2f2;
 }
 
