@@ -84,21 +84,12 @@ Clone this repository to your desired folder:
 ```
 
 
-
-### Deployment
-
-You can deploy this project using 
-> [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-
-> [github html preview](https://htmlpreview.github.io/) and paste index adress into it to view.
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors 
-<a name="authors"></a>
+## 👥 Author
+<a name="author"></a>
 
 👤 **Mohammad Kazim**
 
@@ -136,9 +127,9 @@ If you like this project give me a star.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgment <a name="acknowledgement"></a>
 
- We would like to thank all our fellow micronauts.
+ ie would like to thank all our fellow micronauts.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
