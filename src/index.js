@@ -1,6 +1,6 @@
+import './style.css';
 import postScore from './modules/postToAPI.js';
 import UI from './modules/ui.js';
-import './style.css';
 
 const refresh = document.querySelector('.refresh-btn');
 const addForm = document.querySelector('form');
