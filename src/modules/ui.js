@@ -1,13 +1,11 @@
-import getScore, { getGames } from './getFromAPi.js';
+import GetScore from './getFromAPi.js';
 
 const scoreBoard = document.querySelector('.score-list');
 
 const UI = async () => {
   scoreBoard.innerHTML = '';
-  const Arr = await getScore();
-  console.table(Arr)
+  const Arr = await GetScore();
   Arr.sort((a, b) => b.score - a.score);
-  let id = 1;
   Arr.forEach((el) => {
     scoreBoard.innerHTML += `
     <tr>
@@ -15,7 +13,6 @@ const UI = async () => {
          <td>${el.score}</td>
    </tr>
     `;
-    id += 1; // increment the id
   });
 };
 
